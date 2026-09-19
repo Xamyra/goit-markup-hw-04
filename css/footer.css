@@ -1,0 +1,29 @@
+.footer {
+  background-color: #2E2F42;
+  padding: 100px 0;
+
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-family: raleway;
+  color: #F4F4FD;
+}
+
+.footer-web {
+  color: #4D5AE5;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
+  width: 264px;
+  margin-top: 16px;
+}
