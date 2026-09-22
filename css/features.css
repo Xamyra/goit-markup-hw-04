@@ -30,3 +30,20 @@
 .features-blocks {
   width: calc((100% - 72px) / 4);
 }
+
+.features-block-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F4FD;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  width: 100%;
+  height: 112px;
+}
+
+.features-block-item svg {
+  width: 61px;
+  height: 61px;
+}

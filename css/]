@@ -13,16 +13,13 @@
   color: #4D5AE5;
 }
 
-.header-navigation li {
-  position: relative;
-}
-
 .header-navigation a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  position: relative;
 }
 
 .header-navigation a:hover,
@@ -32,11 +29,11 @@
 
 .header-navigation a:active::after {
   content: "";
+  display: block;
   background-color: #404BBF;
   position: absolute;
-  right: 0;
+  top: 100%;
   left: 0;
-  bottom: 0;
   height: 4px;
   border-radius: 2px;
 }
