@@ -65,23 +65,15 @@
 .header-content {
   display: flex;
   align-items: center;
-}
-
-.header-block {
-  display: flex;
   justify-content: space-between;
-  flex-grow: 1;
-  padding-left: 76px;
+
 }
 
-.header-nav-block {
-  display: flex;
+.header-content a {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: inline-block;
 }
-
-.header-contact-block {
-  display: flex;
-}
-
 
 .header-navigation {
   display: flex;
@@ -96,10 +88,4 @@
 
 .header-section {
   border-bottom: 1px solid #E7E9FC;
-}
-
-.header-block a {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  display: inline-block;
 }
