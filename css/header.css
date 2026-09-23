@@ -26,14 +26,13 @@
   transition: color 250ms ease-in-out;
 }
 
-.header-navigation a:hover,
-.header-navigation a:focus {
-  color: #404bbf;
+.header-navigation a.current {
+  color: #404BBF;
 }
 
-.current:active::after {
+.current::after {
   content: "";
-  background-color: #404BBF;
+  background-color: #404bbf;
   position: absolute;
   right: 0;
   left: 0;
