@@ -31,7 +31,7 @@
   color: #404bbf;
 }
 
-.header-navigation a.current::after {
+.current:active::after {
   content: "";
   background-color: #404BBF;
   position: absolute;
