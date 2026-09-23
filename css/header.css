@@ -23,6 +23,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2E2F42;
+  transition: color 250ms ease-in-out;
 }
 
 .header-navigation a:hover,
@@ -30,7 +31,7 @@
   color: #404bbf;
 }
 
-.header-navigation a:active::after {
+.header-navigation a.current::after {
   content: "";
   background-color: #404BBF;
   position: absolute;
@@ -47,6 +48,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  transition: color 250ms ease-in-out;
 }
 
 .header-contacts a:hover,
